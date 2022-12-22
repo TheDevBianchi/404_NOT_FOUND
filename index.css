@@ -1,0 +1,113 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rubik:wght@300;400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #efeefe;
+	font-family: 'Rubik', Arial, Helvetica, sans-serif;
+	color: #303030;
+}
+
+header {
+	height: 100%;
+	width: 100vw;
+	max-width: 1200px;
+	padding: 22px 4%;
+	text-transform: uppercase;
+}
+
+header span {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 95vh;
+	padding: 8px 28px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	align-items: center;
+	gap: 4rem;
+	width: 100%;
+}
+
+.image--wrapper {
+	height: auto;
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+.info--container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.info--container h2 {
+	display: block;
+	text-transform: uppercase;
+	text-align: justify;
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 2;
+	margin-bottom: 15px;
+}
+
+.info--container p {
+	font-size: 18px;
+	text-align: justify;
+	margin: 24px 0 36px;
+	width: 80%;
+}
+
+button {
+	border: none;
+	padding: 12px 32px;
+	align-self: flex-start;
+	border-radius: 2px;
+
+	color: #fff;
+	background-color: #303030;
+	font-size: 16px;
+	font-weight: 600;
+	box-shadow: 0px 2px 3px 1px #30303060;
+	transition: 0.5s;
+	margin: auto;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #cbcbd3;
+	color: #050505;
+	box-shadow: 0px 2px 3px 1px #30303080;
+}
+
+footer {
+	height: 100%;
+	margin: 15px 0;
+	text-align: center;
+	padding: 12px 0;
+}
+
+footer p {
+	color: #505050;
+}
+
+footer p a {
+	font-weight: 600;
+	color: inherit;
+	text-decoration: none;
+}
